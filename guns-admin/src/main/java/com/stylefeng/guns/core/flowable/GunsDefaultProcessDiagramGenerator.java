@@ -413,7 +413,7 @@ public class GunsDefaultProcessDiagramGenerator implements ProcessDiagramGenerat
 
     @Override
     public InputStream generateDiagram(BpmnModel bpmnModel, String imageType,
-            List<String> highLightedActivities, List<String> highLightedFlows, double scaleFactor) {
+                                       List<String> highLightedActivities, List<String> highLightedFlows, double scaleFactor) {
         return generateDiagram(bpmnModel, imageType, highLightedActivities, highLightedFlows, null, null, null, null, scaleFactor);
     }
 

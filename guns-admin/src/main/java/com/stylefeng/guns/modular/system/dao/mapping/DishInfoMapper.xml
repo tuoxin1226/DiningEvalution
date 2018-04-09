@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.modular.system.dao.DishInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.modular.system.model.DishInfo">
+        <id column="id" property="id" />
+        <result column="restaurant_id" property="restaurantId" />
+        <result column="dish_name" property="dishName" />
+        <result column="type" property="type" />
+        <result column="picture" property="picture" />
+        <result column="tasty" property="tasty" />
+        <result column="price" property="price" />
+        <result column="average_score" property="averageScore" />
+        <result column="score_times" property="scoreTimes" />
+        <result column="yn" property="yn" />
+        <result column="status" property="status" />
+        <result column="moidfied_user" property="moidfiedUser" />
+        <result column="created_time" property="createdTime" />
+        <result column="modified_time" property="modifiedTime" />
+        <result column="remark" property="remark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, restaurant_id AS restaurantId, dish_name AS dishName, type, picture, tasty, price, average_score AS averageScore, score_times AS scoreTimes, yn, status, moidfied_user AS moidfiedUser, created_time AS createdTime, modified_time AS modifiedTime, remark
+    </sql>
+
+</mapper>

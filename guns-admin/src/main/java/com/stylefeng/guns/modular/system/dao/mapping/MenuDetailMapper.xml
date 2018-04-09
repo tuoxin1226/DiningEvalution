@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.modular.system.dao.MenuDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.modular.system.model.MenuDetail">
+        <id column="id" property="id" />
+        <result column="menu_id" property="menuId" />
+        <result column="dish_id" property="dishId" />
+        <result column="dish_name" property="dishName" />
+        <result column="score" property="score" />
+        <result column="appraise" property="appraise" />
+        <result column="price" property="price" />
+        <result column="yn" property="yn" />
+        <result column="status" property="status" />
+        <result column="moidfied_user" property="moidfiedUser" />
+        <result column="created_time" property="createdTime" />
+        <result column="modified_time" property="modifiedTime" />
+        <result column="remark" property="remark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, menu_id AS menuId, dish_id AS dishId, dish_name AS dishName, score, appraise, price, yn, status, moidfied_user AS moidfiedUser, created_time AS createdTime, modified_time AS modifiedTime, remark
+    </sql>
+
+</mapper>

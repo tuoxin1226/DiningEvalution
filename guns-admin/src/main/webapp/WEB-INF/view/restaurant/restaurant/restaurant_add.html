@@ -1,0 +1,40 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+
+            <input type="hidden" id="id" value="">
+
+            <div class="row">
+                <div class="col-sm-6 b-r">
+                            <#input id="id" name="主键id" underline="true"/>
+                            <#input id="name" name="饭店名称" underline="true"/>
+                            <#input id="address" name="饭店地址" underline="true"/>
+                            <#input id="onwer" name="店主" underline="true"/>
+                            <#input id="scale" name="规模" underline="true"/>
+                            <#input id="phone" name="联系电话" underline="true"/>
+                            <#input id="userId" name="用户id"/>
+                </div>
+
+                <div class="col-sm-6">
+                            <#input id="yn" name="是否有效" underline="true"/>
+                            <#input id="status" name="状态" underline="true"/>
+                            <#input id="moidfiedUser" name="修改人" underline="true"/>
+                            <#input id="createdTime" name="创建时间" underline="true"/>
+                            <#input id="modifiedTime" name="修改时间" underline="true"/>
+                            <#input id="remark" name="备注" underline="true"/>
+                </div>
+            </div>
+
+            <div class="row btn-group-m-t">
+                <div class="col-sm-10">
+                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="RestaurantInfoDlg.addSubmit()"/>
+                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="RestaurantInfoDlg.close()"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/restaurant/restaurant/restaurant_info.js"></script>
+@}

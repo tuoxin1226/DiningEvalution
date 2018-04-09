@@ -79,7 +79,7 @@ spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     username: root
-    password: root
+    password: tuotuo520
     db-name: guns
     filters: log4j,wall,mergeStat
 
@@ -89,12 +89,12 @@ guns:
     datasource:
       url: jdbc:mysql://127.0.0.1:3306/guns_flowable?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
-      password: root
+      password: tuotuo520
   muti-datasource:
     default-dataSource-name: dataSourceGuns #默认的数据源名称
     url: jdbc:mysql://127.0.0.1:3306/guns_flowable?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     username: root
-    password: root
+    password: tuotuo520
 
 logging:
   level.root: info
@@ -112,7 +112,7 @@ spring:
   datasource:
       url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
-      password: root
+      password: tuotuo520
       filters: log4j,wall,mergeStat
 
 logging:
