@@ -51,13 +51,13 @@ RestaurantInfoDlg.collectData = function() {
     .set('onwer')
     .set('scale')
     .set('phone')
-    .set('userId')
-    .set('yn')
-    .set('status')
-    .set('moidfiedUser')
-    .set('createdTime')
-    .set('modifiedTime')
-    .set('remark');
+    // .set('userId')
+    // .set('yn')
+    // .set('status')
+    // .set('moidfiedUser')
+    // .set('createdTime')
+    // .set('modifiedTime')
+    // .set('remark');
 }
 
 /**

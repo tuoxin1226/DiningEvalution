@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.stylefeng.guns.modular.system.model.MenuDetail;
 import com.stylefeng.guns.modular.dishEvalution.service.IMenuDetailService;
 
+import static com.stylefeng.guns.core.shiro.ShiroKit.isAdmin;
+
 /**
  * 评价管理控制器
  *
@@ -31,7 +33,8 @@ public class MenuDetailController extends BaseController {
      * 跳转到评价管理首页
      */
     @RequestMapping("")
-    public String index() {
+    public String index(Model model) {
+        model.addAttribute("admin", isAdmin());
         return PREFIX + "menuDetail.html";
     }
 

@@ -53,11 +53,11 @@ MenuDetailInfoDlg.collectData = function() {
     .set('appraise')
     .set('price')
     .set('yn')
-    .set('status')
-    .set('moidfiedUser')
-    .set('createdTime')
-    .set('modifiedTime')
-    .set('remark');
+    // .set('status')
+    // .set('moidfiedUser')
+    // .set('createdTime')
+    // .set('modifiedTime')
+    // .set('remark');
 }
 
 /**

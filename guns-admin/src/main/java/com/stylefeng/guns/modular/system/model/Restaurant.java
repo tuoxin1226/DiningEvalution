@@ -30,7 +30,7 @@ public class Restaurant extends Model<Restaurant> {
     /**
      * 饭店名称
      */
-    private Long name;
+    private String name;
     /**
      * 饭店地址
      */
@@ -89,11 +89,11 @@ public class Restaurant extends Model<Restaurant> {
         this.id = id;
     }
 
-    public Long getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Long name) {
+    public void setName(String name) {
         this.name = name;
     }
 

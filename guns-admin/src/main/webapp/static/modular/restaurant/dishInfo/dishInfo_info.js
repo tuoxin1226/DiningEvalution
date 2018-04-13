@@ -51,15 +51,15 @@ DishInfoInfoDlg.collectData = function() {
     .set('type')
     .set('picture')
     .set('tasty')
-    .set('price')
-    .set('averageScore')
-    .set('scoreTimes')
-    .set('yn')
-    .set('status')
-    .set('moidfiedUser')
-    .set('createdTime')
-    .set('modifiedTime')
-    .set('remark');
+    .set('price');
+    // .set('averageScore')
+    // .set('scoreTimes')
+    // .set('yn')
+    // .set('status')
+    // .set('moidfiedUser')
+    // .set('createdTime')
+    // .set('modifiedTime')
+    // .set('remark');
 }
 
 /**

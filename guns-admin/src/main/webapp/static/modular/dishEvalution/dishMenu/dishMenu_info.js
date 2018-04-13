@@ -51,11 +51,11 @@ DishMenuInfoDlg.collectData = function() {
     .set('oederTime')
     .set('amount')
     .set('yn')
-    .set('status')
-    .set('moidfiedUser')
-    .set('createdTime')
-    .set('modifiedTime')
-    .set('remark');
+    // .set('status')
+    // .set('moidfiedUser')
+    // .set('createdTime')
+    // .set('modifiedTime')
+    // .set('remark');
 }
 
 /**
